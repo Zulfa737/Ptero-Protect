@@ -79,7 +79,7 @@ class ServerDeletionService
                 }
 
                 if ($ownerId !== $user->id) {
-                    throw new DisplayException('😆 Waduh, gagal lagi ya? Makanya jangan coba-coba buka punya orang. — 𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗦𝗔𝗚𝗔');
+                    throw new DisplayException('😆 Waduh, gagal lagi ya? Makanya jangan coba-coba buka punya orang. — PROTECT BY CETRAIL');
                 }
             }
             // jika $user->id === 1, lanjutkan (admin super)
