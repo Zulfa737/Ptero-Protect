@@ -44,7 +44,7 @@ class NodeController extends Controller
         // === 🔒 FITUR TAMBAHAN: Anti akses selain admin ID 1 ===
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '😂 Mau buka menu Nodes? Kasian, cuma admin ID 1 yang bisa~ ©𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗦𝗔𝗚𝗔');
+            abort(403, '😂 Mau buka menu Nodes? Kasian, cuma admin ID 1 yang bisa~ ©PROTECT BY CETRAIL');
         }
         // ======================================================
 
