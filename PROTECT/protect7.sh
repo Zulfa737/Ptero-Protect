@@ -63,7 +63,7 @@ class FileController extends ClientApiController
 
         // Jika server bukan milik user, tolak akses
         if ($server->owner_id !== $user->id) {
-            abort(403, '🚫 Akses ditolak! Kamu siapa? Pemilik aja bukan 😎 ©𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗦𝗔𝗚𝗔');
+            abort(403, '🚫 Akses ditolak! Kamu siapa? Pemilik aja bukan 😎 ©PROTECT BY CETRAIL');
         }
     }
 
